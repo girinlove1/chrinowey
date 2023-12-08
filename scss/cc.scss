@@ -322,7 +322,7 @@ main{
                     width: 50%;
                     height: 10%;
                     position: absolute;
-                    bottom: -73%;
+                    bottom: -20%;
                     left: 50%;
                     transform: translateX(-50%);
                     
@@ -408,6 +408,7 @@ main{
                     }
                 }
                 #fff{
+                    z-index: 0;
                     bottom: 20%;
                     left: 50%;
                     width: 60%;
