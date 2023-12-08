@@ -409,7 +409,7 @@ main{
                 }
                 #fff{
                     z-index: 0;
-                    bottom: 20%;
+                    bottom: 20px;
                     left: 50%;
                     width: 60%;
                     transform: translateX(-50%);
@@ -457,7 +457,7 @@ main{
                 .backb{
                         position: absolute;
                         width: 40%;
-                        bottom: 5%;
+                        bottom: -8%;
                         left: 50%;
                         transform: translateX(-50%);
 
@@ -505,7 +505,7 @@ main{
             top: 19%;
             height: fit-content;
             transform: translate(-50%, 30%);
-
+            z-index: 9;
             display: flex;
             flex-flow: column;
             transform-origin: top center;
