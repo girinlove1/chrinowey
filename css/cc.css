@@ -456,7 +456,7 @@ main #clicked .topline .toptop span {
 main #clicked .topline .toptop .backb {
   position: absolute;
   width: 40%;
-  bottom: -8%;
+  bottom: -12%;
   left: 50%;
   transform: translateX(-50%);
   padding: 10px;
