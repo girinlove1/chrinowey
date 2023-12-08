@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nowey.eel</title>
+    <link rel="stylesheet" href="css/cc.css">
+    <script defer src="js/cc.js"></script>
+    <script src="https://kit.fontawesome.com/a90ac985a1.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+    <main>
+        <div class="bgbg"></div>
+        <div class="title">
+            <p>a(spoonful)of(warm)+(caring)messages...</p>
+        </div>
+
+        <div class="inbox on" id="basic">
+            <div class="letter">
+                <img src="img/letter.png" alt="">
+                <div class="envv">
+                    <img src="img/enf1.png" alt="" id="bbb">
+                    <img src="img/enf2.png" alt="" id="aaa">
+                </div>
+            </div>
+
+            <div class="topline" id="topa">
+                <p>happy<br>holidays...</p>
+                <span>메세지를 써주시면 작은 쪽지가 나와요🧶</span>
+            </div>
+
+
+            <div class="mbox">
+                <form id="form">
+                    <div class="field">
+                        <label for="from_name">from:</label>
+                        <input type="text" name="from_name" id="from_name" required placeholder="닉네임" onkeyup='printName()'/>
+                    </div>
+
+                    <div class="field" id="tbox">
+                        <textarea name="message" id="message" cols="7" rows="4" required placeholder="to. doolgi"></textarea>
+                    </div>
+                
+                    <input type="submit" id="button" value="보내기!" >
+                </form>
+              
+              <script type="text/javascript"
+                src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+              
+              <script type="text/javascript">
+                emailjs.init('w51pU-ndbEHGLsrbA')
+              </script>
+
+            </div> 
+            
+        </div>
+        <div class="inbox" id="clicked">
+
+            <div class="arrow">
+                <div class="left"><i class="fas fa-chevron-circle-left"></i></div>
+                <div class="right"><i class="fas fa-chevron-circle-right"></i></div>
+            </div>
+
+            <div class="letter" id="letterc">
+                
+               
+                <div class="envv">
+                    <img src="img/enff.png" alt="" class="on" id="ddd">
+                    <img src="img/enb.png" alt="" class="on" id="ccc">
+                    <img src="img/title.png" alt="" id="fff">
+               
+               
+            </div>
+            </div>
+
+            <div class="topline on" id="topb">
+                 <img src="img/letterr.png" alt="">
+                 <div class="toptop">
+                <p>dear.<span id="nickname"></span> </p><br>
+                <span>안녕하세요? 써 주셔서 감사합니다☕️ 답례로 겨울에 자주 듣는 노래들을 소개해 드리니 양쪽 화살표를 눌러 보세요... 제목을 누르면 들어볼 수 있음. 
+                </span>
+                <br><br>
+                <span>저는 추위를 정말 좋아하는 사람이었는데 올해는 여름이 가버린 게 너무 슬프네요. 이런 날이 오다니... 근데 이젠 추우면 몸이 아프다... 얼마 남지 않은 12월도 감기 조심하시고 뜨뜻한 겨울 보내세요. 곧 나올 연하장도 많은 관심 바랍니다🧣
+                <br><br>
+                -비둘기관총-
+
+                </span>
+                <input type="#"  class="backb" value="한 번 더 쓰기" >
+            </div>
+        </div>
+
+                   <div class="afterbox">
+                    <div class="aabg">
+                        <img src="img/memo.png" alt="">
+                    </div>
+                        <div class="aabox">
+                            <p>
+                                
+                                <div class="iii">
+                                <h1>random winter song<br> dump (<span id="order">1</span>/10)</h1>
+                              
+                                    <div class="ii" id="random">
+                                    <i class="fas fas fas fa-random" >
+                                    </i>
+                                </div>
+
+
+                            </div>
+
+                                <a href="https://www.youtube.com/watch?v=4PzetPqepXA" target="_blank" id="songadd">
+                                <h3 class="songname">☃️<span class="titi">Vince Guaraldi Trio</span>☃️<br><span class="sonsons">Christmas Time Is Here</span></h3>
+                            </a>
+                               
+                               </p>
+                               
+
+
+                               
+                             
+                        </div>
+                        
+                        </div>
+                   
+
+                
+                
+              <script type="text/javascript"
+                src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+              
+              <script type="text/javascript">
+                emailjs.init('w51pU-ndbEHGLsrbA')
+              </script>
+
+            </div> 
+            
+            
+        </div>
+        
+        <footer>2023@nowey.eel</footer>
+    </main>
+    
+</body>
+</html>
