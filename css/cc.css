@@ -341,7 +341,7 @@ main .inbox .mbox form #button {
   width: 50%;
   height: 10%;
   position: absolute;
-  bottom: -73%;
+  bottom: -20%;
   left: 50%;
   transform: translateX(-50%);
   padding: 10px;
@@ -412,6 +412,7 @@ main #clicked #letterc .envv #ddd.on {
   transition: 1s;
 }
 main #clicked #letterc .envv #fff {
+  z-index: 0;
   bottom: 20%;
   left: 50%;
   width: 60%;
